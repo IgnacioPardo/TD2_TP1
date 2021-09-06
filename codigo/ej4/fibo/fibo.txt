@@ -1,0 +1,14 @@
+      |00| SET R0 , 0x07
+ fibo |02| SET R2 , 0x01
+      |04| SET R4 , 0x01
+      |06| SET R5 , 0x01
+      |08| DEC R0
+ciclo |0a| CMP R0 , R5
+      |0c| JZ fin
+      |0e| ADD R4 , R2
+      |10| MOV R6 , R2
+      |12| MOV R2 , R4
+      |14| SUB R2 , R6
+      |16| DEC R0
+      |18| JMP ciclo
+  fin |1a| JMP fin
