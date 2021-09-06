@@ -1,10 +1,8 @@
 SET R4, 0x00
 SET R2, 0x00
-SET R3, 0x01
 
 ciclo:
 ADD R4, R0
-SUB R0, R3
-
+DEC R0
 CMP R2, R0
 JN ciclo
