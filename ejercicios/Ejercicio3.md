@@ -29,18 +29,19 @@ a) Previamente a ejecutar el programa, describir con palabras el comportamiento 
 
 b) Identificar la dirección de memoria de cada una de las etiquetas del programa.
 
-      00 | inicio:
-      00 | SET R0, 0x10
-      02 | SET R1, 0x00
-      04 | SET R2, 0x01
-      06 | ciclo:
-      06 | ADD R1, R2
-      08 | CMP R0, R1
-      10 | JZ fin
-      12 | JMP ciclo
-      14 * fin:
-      16 * halt:
-      18 * JMP halt
+         inicio |00| SET R0 , 0x10
+                |02| SET R1 , 0x00
+                |04| SET R2 , 0x01
+          ciclo |06| ADD R1 , R2
+                |08| CMP R0 , R1
+                |0a| JZ fin
+                |0c| JMP ciclo
+      fin, halt |0e| JMP halt
+
+      inicio      : 00
+      ciclo       : 06
+      fin y halt  : 12
+
 
 c) Ejecutar e identificar cuántos ciclos de clock son necesarios para que el programa llegue a la instrucción JMP halt.
 
@@ -48,6 +49,8 @@ c) Ejecutar e identificar cuántos ciclos de clock son necesarios para que el pr
 
 d) ¿Cuántas microinstrucciones son necesarias para ejecutar la instrucción ADD? ¿Cuántas para la instrucción JMP? y ¿Cuántas para la instrucción JZ?
 
-      
+      ADD: 5 microinstrucciones
+      JMP: 2 microinstrucciones
+      JZ : 4 microinstrucciones
 
 

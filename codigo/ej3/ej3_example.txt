@@ -5,3 +5,4 @@
           |08| CMP R0 , R1
           |0a| JZ fin
           |0c| JMP ciclo
+fin, halt |0e| JMP halt
