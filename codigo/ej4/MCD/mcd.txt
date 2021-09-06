@@ -1,0 +1,19 @@
+      mcd |00| SET R2 , 0x00
+          |02| CMP R0 , R2
+          |04| JZ a_cero
+          |06| CMP R1 , R2
+          |08| JZ b_cero
+          |0a| CMP R0 , R1
+          |0c| JZ iguales
+          |0e| JN b_mayor_a
+          |10| JMP a_mayor_b
+   a_cero |12| MOV R4 , R1
+          |14| JMP fin
+   b_cero |16| MOV R4 , R0
+          |18| JMP fin
+  iguales |1a| MOV R4 , R0
+          |1c| JMP fin
+b_mayor_a |1e| SUB R1 , R0
+          |20| JMP mcd
+a_mayor_b |22| SUB R0 , R1
+          |24| JMP mcd
