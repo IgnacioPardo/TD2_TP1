@@ -1,0 +1,8 @@
+      |00| SET R0 , 0x06
+      |02| SET R1 , 0x00
+      |04| SET R2 , 0x00
+      |06| SET R3 , 0x01
+ciclo |08| ADD R1 , R0
+      |0a| SUB R0 , R3
+      |0c| CMP R2 , R0
+      |0e| JN ciclo
