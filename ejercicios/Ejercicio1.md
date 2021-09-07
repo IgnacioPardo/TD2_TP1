@@ -14,7 +14,7 @@
 
 	d) ¿Dónde se encuentra y qué tamaño tiene el IR?
 		
-		El IR se encuentra en el Decode, su tamaño es de 16 bits
+		El IR se encuentra en el Decode, su tamaño es de 16 bits.
 
 	e) ¿Cuál es el tamaño de la memoria de microinstrucciones? ¿Cuál es su unidad direccionable?
 		
