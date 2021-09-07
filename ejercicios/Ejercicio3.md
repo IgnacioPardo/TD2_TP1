@@ -38,14 +38,14 @@ b) Identificar la dirección de memoria de cada una de las etiquetas del program
                 |0c| JMP ciclo
       fin, halt |0e| JMP halt
 
-      inicio      : 00
-      ciclo       : 06
-      fin y halt  : 12
+      inicio      : 0x00
+      ciclo       : 0x06
+      fin y halt  : 0x0e
 
 
 c) Ejecutar e identificar cuántos ciclos de clock son necesarios para que el programa llegue a la instrucción JMP halt.
 
-      475 ciclos de clock
+      950 ciclos de clock
 
 d) ¿Cuántas microinstrucciones son necesarias para ejecutar la instrucción ADD? ¿Cuántas para la instrucción JMP? y ¿Cuántas para la instrucción JZ?
 
