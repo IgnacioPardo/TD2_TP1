@@ -1,18 +1,16 @@
 SET R0, 0x07
 
 fibo:
+SET R4, 0x00
 SET R2, 0x01
-SET R4, 0x01
-SET R5, 0x01
-DEC R0
+SET R5, 0x00
 
 ciclo:
 CMP R0, R5
 JZ fin
-ADD R4, R2
 MOV R6, R2
-MOV R2, R4
-SUB R2, R6
+ADD R2, R4
+MOV R4, R6
 DEC R0
 JMP ciclo
 
