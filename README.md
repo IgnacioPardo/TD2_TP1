@@ -31,4 +31,5 @@
 
 <img width="100" alt="micro_DiTella" src="https://user-images.githubusercontent.com/65306107/132214134-ac5df2b8-353e-46b2-9c6e-ab9f0429a767.png"> 
 
-### Tecnologia Digital II UTDT
+### 🎓 Tecnologia Digital II UTDT
+### 📦 [GitHub](https://github.com/IgnacioPardo/TD2_TP1)
