@@ -1,0 +1,4 @@
+SET R0, 0x99
+SET R1, 0xD2
+
+COM R0, R1
