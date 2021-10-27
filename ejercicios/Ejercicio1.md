@@ -19,4 +19,4 @@
 	e) ¿Cuál es el tamaño de la memoria de microinstrucciones? ¿Cuál es su unidad direccionable?
 		
 		32 * 2^9 = 16384 bits de memoria
-		Direccionable a 9 bits
+		Su ROM es direccionable a 9 bits
